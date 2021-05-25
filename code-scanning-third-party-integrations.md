@@ -10,12 +10,6 @@
 | [PHP (OWASP/OWASPWebGoatPHP)](https://github.com/octodemo/advance-security-php)                    | `PHP`, `JavaScript` | `CodeQL`, `SL Scan (ShiftLeft)` |
 | [IaC / Terraform (bridgecrewio/terragoat)](https://github.com/octodemo/advance-security-terraform) | `Terraform`         | `Bridgecrew (Checkov)`, `TFSec` |
 
-
-<!-- AUTOMATION -->
-<!-- WARNING: This section is automatically generated using a script, please
- update the associated YML file and not this section directly
--->
-
 ## Code Scanning - Languages
 
 ### Apache Velocity
@@ -172,7 +166,3 @@
 ### Windows Containers
 
 - [Anchore](https://github.com/anchore/scan-action)
-
-<!-- AUTOMATION -->
-
-## References
