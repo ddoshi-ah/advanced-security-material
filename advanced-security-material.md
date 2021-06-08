@@ -34,6 +34,9 @@
     - For example, js query suites: https://github.com/github/codeql/tree/master/javascript/ql/src/codeql-suites
 - [ ] Troubleshooting code scanning workflow:
 https://docs.github.com/en/free-pro-team@latest/github/finding-security-vulnerabilities-and-errors-in-your-code/troubleshooting-the-codeql-workflow
+
+#### Using the CodeQL CLI in CI/CD:
 - [ ] How to use the CodeQL CLI: https://github.com/advanced-security/javascript-codeql-cli-test-workflow/blob/main/.github/workflows/codeql-analysis.yml
 - [ ] Example Azure workflows using CLI: https://github.com/cmboling/ghas-test-workflows/tree/main/.github/workflows/azure-workflows
-- [ ] Other Examples using CodeQL CLI: https://github.com/kllund/sample-pipeline-files
+- [ ] Other Examples using CodeQL Runner/CLI: https://github.com/kllund/sample-pipeline-files
+  - [ ] Jenkins + CodeQL CLI: https://github.com/kllund/sample-pipeline-files/blob/main/Jenkinsfile-template-with-codeql-cli-bundle
