@@ -40,3 +40,6 @@ https://docs.github.com/en/free-pro-team@latest/github/finding-security-vulnerab
 - [ ] Example Azure workflows using CLI: https://github.com/cmboling/ghas-test-workflows/tree/main/.github/workflows/azure-workflows
 - [ ] Other Examples using CodeQL Runner/CLI: https://github.com/kllund/sample-pipeline-files
   - [ ] Jenkins + CodeQL CLI: https://github.com/kllund/sample-pipeline-files/blob/main/Jenkinsfile-template-with-codeql-cli-bundle
+
+#### OSS Issue Tracking
+- [ ] GitHub Code Scanning + Jira: https://github.com/github/codescanning-jira-integration
