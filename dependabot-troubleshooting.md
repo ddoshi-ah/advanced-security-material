@@ -36,7 +36,7 @@ You may still run into cases where code scanning fails on commits made by depend
 
 From what we can tell the only case where this can happen is if the dependabot PR is merged by using the @dependabot squash and merge syntax. Our advice would be to avoid using this syntax if at all possible. Thankfully the new feature to automatically merge a pull request may be able to help here and fulfil the same functionality.
 
-Retrying analysis
+### Retrying analysis
 Another thing to note is that performing certain actions on a workflow run changes its state from having dependabot as the actor that triggered the workflow to being you triggering the workflow. This includes things like merging main into the PR, or retrying the workflow run. When the workflow run retries it'll run with write permissions and code scanning will succeed.
 
 Be aware that you may be running untrusted code, so check what change dependabot has made to avoid security breaches from compromised dependencies. If you are happy though then retrying the failed workflow run should make it succeed.
